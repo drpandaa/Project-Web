@@ -1,6 +1,14 @@
 # Project-Web
 This is a group project for (Web Technology and Security) in Imam Abdulrahman bin faisal University
 
+Our gruop:
+Ammar Amin	
+Yazed Alghuraibi	
+Ahmad Al-Ghamdi	
+Khalid Al-Mutairi	
+Faisal Bakhurji	
+Murtadha Alhussain	
+
 This project is basically a website that stores information about a video game in a database. 
 Users can request adding games and view the information about the game such as, game name, game description, 
 game category, game platform, and the website for the game.
