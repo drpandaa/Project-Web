@@ -1,0 +1,78 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#games-table{
+  width: 200px;
+  height: 400px;
+  overflow:auto;
+  position:sticky;
+  top:0;
+}
+#search-input {
+  padding: 8px;
+  border: 1px solid #bb0808;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#search-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  
+  height: auto;
+  width:auto;
+ 
+}
+
+th, td {
+  padding: 22px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #12006a;
+  font-size: 20px;
+}
+
+tr {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+tr, td {
+  font-size: 13px;
+}
+
+
+.hide {
+  display: none;
+}
+
+.highlighted-text {
+  background-color: rgb(138, 2, 2);
+}
+

@@ -1,0 +1,92 @@
+body {
+  /*background-color: #222;*/
+  margin:0;
+  padding:0;
+  background: url(../img/dark.jpg) center/ cover;
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 0px;
+  box-shadow: 0 .4rem .8rem #0005;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #888;
+  
+}
+
+
+th {
+  background-color: #a008;
+  color: #fff;
+}
+
+tbody tr:hover{
+  background-color: rgba(218, 235, 211, 0.226)
+}
+
+tr:nth-child(even) {
+  background-color: #fff9;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff9;
+}
+
+form {
+  display: inline;
+}
+
+input[type="submit"] {
+  background-color: #a00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 2rem;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(6, 179, 0);
+  color: rgb(0, 0, 0);
+}
+
+#buttonApprovalHome {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d80000;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Audiowide', cursive;
+  position: fixed;
+  bottom: 0;
+  left: 150px; /* Adjust the value to move the button right */
+}
+
+#buttonApprovalHome:hover {
+  background-color: rgb(157, 6, 6);
+  color: rgb(0, 0, 0);
+}
+
+

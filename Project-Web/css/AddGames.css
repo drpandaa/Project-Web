@@ -1,0 +1,97 @@
+/* addingGames.css */
+body{
+    margin:0;
+    padding:0;
+    background: url(../img/dark.jpg) center/ cover;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+    
+    }
+    
+    /* Style for the form container */
+    form {
+        display: block;
+        margin-bottom: 5px;
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ff0000;
+        border-radius: 10px;
+        background-color: #2227   
+        
+      }
+      div.form-group {
+        background-color: #fff;
+      }
+      /* Style for form labels */
+      label {
+        display: block;
+        margin-top: 0px;
+        
+    
+      }
+      
+      /* Style for form inputs */
+      input[type="text"],
+      textarea,
+      select,
+      input[type="url"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-family: inherit;
+        border-radius: 10px;
+    
+      }
+      
+      /* Style for the submit button */
+      input[type="submit"] {
+        font-family: 'Audiowide', cursive;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 2rem;
+    
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(34, 147, 0);
+        color: rgb(0, 0, 0);
+      }
+      
+      /* Style for the "Go back to homepage" button */
+      .button {
+        background-color: #1638f8;
+        font-family: 'Audiowide', cursive;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 2rem;
+    
+      }
+      .button:hover{
+        background-color: #5468ff;
+        color: rgb(0, 0, 0);
+      }
+      
+      /* Style for error messages */
+      p.error {
+        color: red;
+      }
+      
+      /* Style for the "Other" input */
+      input#other_game_cat {
+        display: none;
+        margin-top: 4px;
+      }
+      
+      

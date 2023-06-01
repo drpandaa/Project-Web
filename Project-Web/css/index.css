@@ -1,0 +1,158 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Audiowide', cursive;
+    background-image: url('../img/indexPage.jpg');
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  }
+  
+  .container {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 19px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .alert.alert-success {
+    background: linear-gradient(to right, black, red);
+    color: white;
+    cursor: url("game-cursor.png"), auto;
+  }
+  
+  .my-4 {
+    animation: sparkling 4.5s infinite;
+  }
+  
+  @keyframes sparkling {
+    0% {
+      color: #FF0018;
+    }
+    16.67% {
+      color: #FFA52C; 
+    }
+    33.33% {
+      color: #FFFF41; 
+    }
+    50% {
+      color: #008018; 
+    }
+    66.67% {
+      color: #0000F9; 
+    }
+    83.33% {
+      color: #86007D; 
+    }
+    100% {
+      color: #FF006C; 
+    }
+  }
+  
+  
+  h4 {
+    color: #ff0000;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #buttonsAddandPend {
+    background-color: #a700c5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: center;
+    
+  }
+  
+  #buttonsAddandPend:hover {
+    background-color: rgb(0, 119, 20);
+    color: rgb(0, 0, 0);
+  }
+  
+  input[type="text"] {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #buttonApprovalHome {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d80000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Audiowide', cursive;
+    position: fixed;
+    bottom: 0;
+}
+
+  #buttonApprovalHome:hover {
+    background-color: rgb(157, 6, 6);
+    color: rgb(0, 0, 0);
+}
+
+#buttonsAddandPend {
+  margin-bottom: 10px;
+}
+
+#logoutAdmin {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  transform: translate(0%, -50%);
+}
+
+#logoutAdmin:hover {
+  background-color: #0056b3;
+}
+
+#logoutAdmin:active {
+  background-color: #003d80;
+}
+
+.logoutFromUser {
+  font-family: 'Audiowide', cursive;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 20px;
+}
+
+.logoutFromUser:hover {
+  background-color: #d32f2f;
+}
+
+

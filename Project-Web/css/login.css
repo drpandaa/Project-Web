@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(../img/mario.gif) center/ cover;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-wrap {
+    background-color: rgba(128, 128, 128, 0.6);
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-control {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.alert {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #11253a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #11253a;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-center a {
+    color: #163453;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
